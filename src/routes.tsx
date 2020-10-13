@@ -8,7 +8,7 @@ function Routes() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route path = '/' component = {Landing}/>
+                <Route exact path = '/' component = {Landing}/>
                 <Route path = '/orfanato' component = {OrphanagesMap}/>
             </Switch>
         </BrowserRouter>
